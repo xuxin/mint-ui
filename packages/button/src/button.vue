@@ -80,17 +80,16 @@ export default {
 
 <style lang="css">
   @import "../../../src/style/var.css";
-
   @component-namespace mint {
     @component button {
       appearance: none;
-      border-radius: 4px;
+      border-radius: .04rem;
       border: 0;
       box-sizing: border-box;
       color: inherit;
       display: block;
-      font-size: 18px;
-      height: 41px;
+      font-size: .18rem;
+      height: .4rem;
       outline: 0;
       overflow: hidden;
       position: relative;
@@ -154,14 +153,14 @@ export default {
 
       @modifier normal {
         display: inline-block;
-        padding: 0 12px;
+        padding: 0 .12rem;
       }
 
       @modifier small {
         display: inline-block;
-        font-size: 14px;
-        padding: 0 12px;
-        height: 33px;
+        font-size: .14rem;
+        padding: 0 .12rem;
+        height: .33rem;
       }
 
       @when disabled {
