@@ -27,13 +27,13 @@
       }
       
       @descendent text {
-        font-size: 14px;
+        font-size: .14rem;
         display: block;
         text-align: center;
       }
       
       @when placetop {
-        top: 50px;
+        top: .5rem;
         left: 50%;
         transform: translate(-50%, 0);
       }
@@ -45,7 +45,7 @@
       }
       
       @when placebottom {
-        bottom: 50px;
+        bottom: .5px;
         left: 50%;
         transform: translate(-50%, 0);
       }
